@@ -17,14 +17,15 @@
   "files": [
     "dist"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "main": "./dist/case-anything.umd.cjs",
   "module": "./dist/case-anything.js",
   "exports": {
     ".": {
       "import": "./dist/case-anything.js",
-      "require": "./dist/case-anything.umd.cjs"
+      "require": "./dist/case-anything.umd.cjs",
+      "types": "./dist/index.d.ts"
     }
   },
   "types": "./dist/index.d.ts",
